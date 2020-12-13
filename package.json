@@ -1,0 +1,24 @@
+{
+  "name": "genshin-impact-backend",
+  "version": "1.0.0",
+  "description": "Genshin Impact Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitro1231/Genshin-Impact-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitro1231/Genshin-Impact-Backend/issues"
+  },
+  "homepage": "https://github.com/Nitro1231/Genshin-Impact-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
