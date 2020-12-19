@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 const multer = require('multer');
+const cv = require("opencv")
 
 const debug = true;
 const port = 5001;
@@ -22,3 +23,5 @@ app.post('/items', upload.array('img', 15), (req, res) => {
 app.listen(port, () => {
     console.log(`Listening to port http://localhost:${port}/`)
 })
+
+
